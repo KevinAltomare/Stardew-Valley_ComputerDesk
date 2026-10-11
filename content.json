@@ -1,0 +1,31 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/Kevin.DeskPC.Furniture/Desk",
+      "FromFile": "assets/desk.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "Kevin.DeskPC.Furniture_DualMonitorDesk": "Dual Monitor Desk/long table/3 2/3 1/1/5000/0/Dual Monitor Desk/0/Mods\\Kevin.DeskPC.Furniture\\Desk/true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Carpenter",
+        "Items"
+      ],
+      "Entries": {
+        "Kevin.DeskPC.Furniture_DualMonitorDesk": {
+          "ItemId": "(F)Kevin.DeskPC.Furniture_DualMonitorDesk",
+          "Price": 5000
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Kevin's Dual Monitor Desk Furniture",
+  "Author": "Kevin Altomare",
+  "Version": "1.0.0",
+  "Description": "Adds a purchasable, wide furniture version of the dual monitor desk.",
+  "UniqueID": "Kevin.DeskPC.Furniture",
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
